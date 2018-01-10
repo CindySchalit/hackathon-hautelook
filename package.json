@@ -1,0 +1,31 @@
+{
+  "name": "hautelookhackathon",
+  "version": "1.0.0",
+  "description": "GraphQL server that allows a client to make 1 HTTP call to 3 REST APIs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CindySchalit/hackathon-hautelook.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "express",
+    "axios"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CindySchalit/hackathon-hautelook/issues"
+  },
+  "homepage": "https://github.com/CindySchalit/hackathon-hautelook#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3"
+  }
+}
