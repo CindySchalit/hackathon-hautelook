@@ -37,8 +37,26 @@ module.exports = buildSchema(`
     url: String
   }
 
+  type Planet {
+    name: String
+    rotation_period: String
+    orbital_period: String
+    diameter: String
+    climate: String
+    gravity: String
+    terrain: String
+    surface_water: String
+    population: String
+    residents: [String]
+    films: [String]
+    created: String
+    edited: String
+    url: String
+  }
+
   type Query {
     person: Person
     film: Film
+    planet: Planet
   }
 `)
